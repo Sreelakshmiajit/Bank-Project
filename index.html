@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Ensuring the body takes full height */
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        /* Sticky footer styles */
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .icon {
+            margin-right: 8px;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column">
+    <header class="d-flex justify-content-between align-items-center p-2 m-2">
+        <h5 style="font-family: 'Roboto', sans-serif; color: blue; font-weight: bolder;">
+            <img src="https://media.istockphoto.com/id/1351600860/vector/blue-home-icon-simple-symbol-house-vector-design.jpg?s=612x612&w=0&k=20&c=lUJ8OfZ2kdY5gMbl0IBaINCTzAbuOHmi6DfUxUaeOYI="
+                width="40px" height="40px" alt="Home Icon"> My Bank
+        </h5>
+        <ul class="d-flex list-unstyled mb-0">
+            <li class="d-flex align-items-center me-4">
+                <img src="https://efilingbihar.com/wp-content/uploads/2020/09/287-2874255_seller-registration-icon-class-register-icon-png-transparent.png"
+                    alt="Register Icon" width="40" height="40" class="icon">
+                <button onclick="register()" class="btn btn-primary ms-2">Register</button>
+            </li>
+            <li class="d-flex align-items-center">
+                <img src="https://cdn-icons-png.flaticon.com/512/6681/6681204.png" alt="Login Icon" width="40"
+                    height="40" class="icon">
+                <button onclick="login()" class="btn btn-primary ms-2">Login</button>
+            </li>
+        </ul>
+    </header>
+
+    <div class="content">
+        <div class="row">
+            <div class="col p-3 m-5">
+                <h2 style="color: blue">Online Bank</h2><br>
+                <b>
+                    <p style="text-align: justify;">Online banking allows users to manage their financial activities
+                        through the internet, offering a convenient way to access bank accounts, transfer money, pay
+                        bills, and monitor transactions anytime, anywhere. It eliminates the need to visit a physical
+                        branch, making banking faster and more efficient. Security measures like encryption and
+                        two-factor authentication are implemented to protect users' data, ensuring a safe online
+                        banking experience.</p>
+                </b>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+            <div class="col">
+                <img src="https://img.freepik.com/premium-vector/online-banking-concept-with-people-scene-flat-cartoon-style-woman-makes-online-payments-using-internet-banking-her-phone-vector-illustration_198565-2329.jpg?w=360"
+                    width="450px" height="450px" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="https://png.pngtree.com/png-clipart/20230825/original/pngtree-mobile-money-payment-by-internet-banking-application-picture-image_8649144.png"
+                    width="400px" height="400px" alt="">
+            </div>
+            <div class="col">
+                <h2 style="color: blue;">Variety of payment choices</h2><br>
+                <b>
+                    <p style="text-align: justify; margin-right: 5; padding-right: 3;">There are various payment
+                        methods available today, catering to different needs and preferences. Traditional methods
+                        include cash, checks, and credit/debit cards, while digital options have expanded to include
+                        mobile wallets like Google Pay and Apple Pay, and online payment platforms like PayPal. Bank
+                        transfers and direct deposits are common for business transactions. Additionally,
+                        cryptocurrencies like Bitcoin are emerging as alternative forms of payment. Each method offers
+                        unique benefits, such as convenience, speed, or security, allowing users to choose the best
+                        option for their specific situation.</p>
+                </b>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div style="display: flex; justify-content: center; margin-bottom: 10px;">
+            <a href="https://facebook.com" target="_blank" style="margin-left: 10px; color: blue; font-size: 14px;">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" style="margin-left: 10px; color: blue; font-size: 14px;">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" style="margin-left: 10px; color: blue; font-size: 14px;">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://google.com" target="_blank" style="margin-left: 10px; color: blue; font-size: 14px;">
+                <i class="fa fa-google"></i>
+            </a>
+        </div>
+
+        <footer>
+            <div style="display: flex; justify-content: center; margin-bottom: 10px;">
+                <a href="https://facebook.com" target="_blank" style="margin-left: 10px; color: blue; font-size: 14px;">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" style="margin-left: 10px; color: blue; font-size: 14px;">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" style="margin-left: 10px; color: blue; font-size: 14px;">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="https://google.com" target="_blank" style="margin-left: 10px; color: blue; font-size: 14px;">
+                    <i class="fa fa-google"></i>
+                </a>
+            </div>
+        
+            <div class="row" style="margin-top: 10px;">
+                <div class="col">
+                    <h5 style="color: blue;">My Bank</h5>
+                    <p style="text-align: justify; color: blue;">
+                        Online banking enables users to manage accounts, transfer money, pay bills, and track transactions
+                        online, offering convenience and efficiency without visiting a branch. With encryption and
+                        two-factor authentication, it ensures secure transactions.
+                    </p>
+                </div>
+                <div class="col">
+                    <h5 style="color: blue;">My Bank Provides</h5>
+                    <p style="color: blue;">Servicing</p>
+                    <p style="color: blue;">Online Banking</p>
+                    <p style="color: blue;">Gallery</p>
+                </div>
+                <div class="col">
+                    <h5 style="color: blue;">Useful Links</h5>
+                    <p style="color: blue;">Settings</p>
+                    <p style="color: blue;">Orders</p>
+                    <p style="color: blue;">Help</p>
+                </div>
+                <div class="col">
+                    <h5 style="color: blue;">Contact</h5>
+                    <p style="color: blue;">
+                        <img src="https://img.icons8.com/androidL/512/228BE6/home--v5.png" width="20px" height="20px" alt="">New York
+                    </p>
+                    <p style="color: blue;">
+                        <img src="https://cdn-icons-png.flaticon.com/512/9801/9801474.png" width="20px" height="20px" alt="">abcd@gmail.com
+                    </p>
+                    <p style="color: blue;">
+                        <img src="https://img.freepik.com/premium-vector/call-icon-blue_874723-55.jpg" width="20px" height="20px" alt="">1234567890
+                    </p>
+                </div>
+            </div>
+        
+            <center>
+                <p style="color: blue;">&copy; 2024 @bank.com. All rights reserved.</p>
+            </center>
+        </footer>
+        <script>
+            function register() {
+                window.location.href = "http://127.0.0.1:5500/register.html";
+            }
+    
+            function login() {
+                window.location.href = "http://127.0.0.1:5500/login.html"; // Change the URL to your actual login page
+            }
+        </script>
+    </body>
+
+    </html>
+            
